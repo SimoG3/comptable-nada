@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>document.documentElement.classList.add('js');</script>
+<title>Nada — Comptable Indépendante</title>
+<meta name="description" content="Nada, comptable indépendante au Maroc. Comptabilité générale, fiscalité, paie, création d'entreprise et conseil pour TPE, PME et auto-entrepreneurs.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">N</span>
+      <span class="brand-name">Nada<em>Comptable</em></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#services">Services</a>
+      <a href="#methode">Méthode</a>
+      <a href="#apropos">À propos</a>
+      <a href="#avis">Avis clients</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="tel:+212700592227" class="btn btn-ghost header-call">
+        <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M6.6 10.8c1.4 2.8 3.7 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.5c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.3 1L6.6 10.8Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        +212 700-592227
+      </a>
+      <a href="#contact" class="btn btn-solid">Prendre rendez-vous</a>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Comptable indépendante · Maroc</p>
+        <h1>Vos comptes, <span>toujours à l'équilibre.</span></h1>
+        <p class="hero-lead">
+          J'accompagne les indépendants, commerçants et petites entreprises dans leur comptabilité,
+          leur fiscalité et leur paie — avec des comptes propres, des échéances tenues, et une
+          personne à qui parler quand vous avez une question.
+        </p>
+        <div class="hero-cta">
+          <a href="tel:+212700592227" class="btn btn-solid btn-lg">Appeler Nada</a>
+          <a href="https://wa.me/212700592227" target="_blank" rel="noopener" class="btn btn-outline btn-lg">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.2-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5C11.2 9.2 10.7 8 10.5 7.5c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.7 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.2-.3-.2-.5-.3ZM12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5.1-1.3c1.4.8 3.1 1.2 4.9 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2Z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+        <div class="hero-facts">
+          <div class="fact"><span class="fact-num" data-count="8">0</span><span class="fact-label">ans d'expérience</span></div>
+          <div class="fact"><span class="fact-num" data-count="120">0</span><span class="fact-label">clients accompagnés</span></div>
+          <div class="fact"><span class="fact-num" data-count="100" data-suffix="%">0</span><span class="fact-label">déclarations à temps</span></div>
+        </div>
+      </div>
+
+      <!-- Élément signature : le "grand livre" qui s'équilibre -->
+      <div class="hero-visual reveal" aria-hidden="true">
+        <div class="ledger-card">
+          <div class="ledger-head">
+            <span>Grand livre</span>
+            <span class="ledger-date">Exercice en cours</span>
+          </div>
+          <div class="ledger-cols">
+            <div class="ledger-col">
+              <p class="ledger-col-title">Débit</p>
+              <div class="ledger-row"><span>Achats</span><span class="ledger-val" data-target="18400">0</span></div>
+              <div class="ledger-row"><span>Charges</span><span class="ledger-val" data-target="6200">0</span></div>
+              <div class="ledger-row"><span>Salaires</span><span class="ledger-val" data-target="24500">0</span></div>
+            </div>
+            <div class="ledger-col">
+              <p class="ledger-col-title">Crédit</p>
+              <div class="ledger-row"><span>Ventes</span><span class="ledger-val" data-target="41300">0</span></div>
+              <div class="ledger-row"><span>Prestations</span><span class="ledger-val" data-target="7800">0</span></div>
+              <div class="ledger-row"><span>Autres produits</span><span class="ledger-val" data-target="0">0</span></div>
+            </div>
+          </div>
+          <div class="ledger-total">
+            <span>Solde</span>
+            <span class="ledger-total-val">0,00 DH</span>
+          </div>
+          <div class="ledger-stamp" id="ledgerStamp">
+            <svg viewBox="0 0 60 60" width="52" height="52">
+              <circle cx="30" cy="30" r="27" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M18 31l8 8 16-17" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Équilibré</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BANDE DE CONFIANCE ============ -->
+  <section class="trust-strip">
+    <div class="container trust-inner">
+      <p><strong>Comptabilité générale</strong> · tenue &amp; grand livre</p>
+      <span class="dot" aria-hidden="true">·</span>
+      <p><strong>Fiscalité</strong> · TVA, IS, IR</p>
+      <span class="dot" aria-hidden="true">·</span>
+      <p><strong>Paie</strong> · CNSS &amp; bulletins</p>
+      <span class="dot" aria-hidden="true">·</span>
+      <p><strong>Création d'entreprise</strong> · auto-entrepreneur &amp; SARL</p>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section id="services" class="section">
+    <div class="container">
+      <p class="eyebrow center reveal">Services</p>
+      <h2 class="section-title center reveal">Un cabinet, tous vos sujets chiffrés</h2>
+      <p class="section-lead center reveal">
+        Chaque service ci-dessous porte le code qu'il occuperait dans votre plan comptable —
+        une façon de dire que tout est classé, suivi, et à sa place.
+      </p>
+
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <span class="service-code">CG</span>
+          <h3>Comptabilité générale</h3>
+          <p>Saisie des pièces, tenue des journaux, grand livre et bilan. Vos comptes à jour, mois après mois.</p>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-code">FI</span>
+          <h3>Fiscalité &amp; déclarations</h3>
+          <p>TVA, IS, IR : calculs et télédéclarations préparés et déposés avant chaque échéance, sans mauvaise surprise.</p>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-code">PA</span>
+          <h3>Paie &amp; gestion RH</h3>
+          <p>Bulletins de paie, déclarations CNSS et suivi des contrats pour votre équipe, quelle que soit sa taille.</p>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-code">CR</span>
+          <h3>Création d'entreprise</h3>
+          <p>Statut auto-entrepreneur, SARL ou SARL-AU : formalités, choix du régime fiscal et démarrage serein.</p>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-code">AU</span>
+          <h3>Audit &amp; conseil</h3>
+          <p>Analyse de vos résultats et tableaux de bord clairs pour décider avec des chiffres, pas des impressions.</p>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-code">TR</span>
+          <h3>Trésorerie &amp; prévisionnel</h3>
+          <p>Suivi de trésorerie et business plans pour anticiper vos besoins de financement.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MÉTHODE ============ -->
+  <section id="methode" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow center reveal">Méthode</p>
+      <h2 class="section-title center reveal">Comment ça se passe</h2>
+
+      <div class="steps">
+        <div class="step reveal">
+          <span class="step-num">1</span>
+          <h3>Premier échange</h3>
+          <p>Un appel ou un message pour comprendre votre activité et vos besoins réels — 15 minutes, sans engagement.</p>
+        </div>
+        <div class="step reveal">
+          <span class="step-num">2</span>
+          <h3>État des lieux</h3>
+          <p>Analyse de votre situation comptable et fiscale actuelle, et proposition claire avec un tarif fixe.</p>
+        </div>
+        <div class="step reveal">
+          <span class="step-num">3</span>
+          <h3>Prise en charge</h3>
+          <p>Vos comptes sont suivis en continu, vos échéances anticipées, et vous gardez une visibilité à tout moment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ À PROPOS ============ -->
+  <section id="apropos" class="section">
+    <div class="container about-inner">
+      <div class="about-portrait reveal" aria-hidden="true">
+        <div class="portrait-frame">
+          <span>N</span>
+        </div>
+        <div class="portrait-tag">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none"><path d="M5 12l4.5 4.5L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Comptes vérifiés chaque mois
+        </div>
+      </div>
+
+      <div class="about-copy reveal">
+        <p class="eyebrow">À propos</p>
+        <h2 class="section-title">Nada, une comptable qui vous répond</h2>
+        <p>
+          Je suis comptable indépendante et j'accompagne des indépendants, commerçants et petites
+          structures qui veulent des comptes fiables sans avoir à devenir experts en fiscalité.
+          Mon travail : garder vos chiffres à jour, respecter chaque échéance, et vous expliquer
+          simplement ce qu'ils veulent dire.
+        </p>
+        <p>
+          Pas de jargon inutile, pas de silence pendant trois semaines : quand vous avez une question
+          sur votre TVA ou votre bilan, vous avez une réponse.
+        </p>
+        <ul class="about-list">
+          <li>Suivi mensuel de votre comptabilité</li>
+          <li>Déclarations fiscales et sociales à jour</li>
+          <li>Disponible par téléphone et WhatsApp</li>
+          <li>Tarifs fixes, sans surprise en fin de mois</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TÉMOIGNAGES ============ -->
+  <section id="avis" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow center reveal">Avis clients</p>
+      <h2 class="section-title center reveal">Ce qu'en disent ses clients</h2>
+
+      <div class="testimonial-grid">
+        <figure class="testimonial reveal">
+          <blockquote>« Mes déclarations de TVA sont enfin déposées sans stress. Nada me prévient toujours avant les échéances. »</blockquote>
+          <figcaption>Karim B. — Gérant, société de négoce</figcaption>
+        </figure>
+        <figure class="testimonial reveal">
+          <blockquote>« En tant qu'auto-entrepreneuse, j'avais besoin de quelqu'un qui m'explique les choses simplement. C'est exactement ça. »</blockquote>
+          <figcaption>Sara L. — Auto-entrepreneuse, design graphique</figcaption>
+        </figure>
+        <figure class="testimonial reveal">
+          <blockquote>« La création de ma SARL s'est faite sans accroc, et le suivi comptable est resté aussi sérieux depuis. »</blockquote>
+          <figcaption>Youssef M. — Restaurateur</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BANDEAU CTA ============ -->
+  <section class="cta-banner reveal">
+    <div class="container cta-inner">
+      <h2>Prête à mettre vos comptes en ordre ?</h2>
+      <p>Un premier échange suffit pour savoir ce dont vous avez besoin.</p>
+      <a href="tel:+212700592227" class="btn btn-dark btn-lg">Appeler +212 700-592227</a>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact-section">
+    <div class="container contact-inner">
+      <div class="contact-info reveal">
+        <p class="eyebrow eyebrow-light">Contact</p>
+        <h2>Parlons de votre comptabilité</h2>
+        <p class="contact-lead">Par téléphone, WhatsApp ou via le formulaire — répondu sous 24h ouvrées.</p>
+
+        <div class="contact-items">
+          <a href="tel:+212700592227" class="contact-item">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M6.6 10.8c1.4 2.8 3.7 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.5c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.3 1L6.6 10.8Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+            <span>+212 700-592227</span>
+          </a>
+          <a href="https://wa.me/212700592227" target="_blank" rel="noopener" class="contact-item">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.2-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5C11.2 9.2 10.7 8 10.5 7.5c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.7 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.2-.3-.2-.5-.3ZM12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5.1-1.3c1.4.8 3.1 1.2 4.9 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2Z"/></svg>
+            <span>WhatsApp</span>
+          </a>
+          <a href="mailto:contact@nada-comptable.ma" class="contact-item">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M3 6h18v12H3V6Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="m3 7 9 6 9-6" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+            <span>contact@nada-comptable.ma</span>
+          </a>
+          <div class="contact-item contact-item-static">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M12 21s7-6.1 7-11.3A7 7 0 0 0 5 9.7C5 14.9 12 21 12 21Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.3" stroke="currentColor" stroke-width="1.5"/></svg>
+            <span>[Ville], Maroc</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+        <div class="form-row">
+          <label for="name">Nom complet</label>
+          <input type="text" id="name" name="name" required placeholder="Votre nom">
+        </div>
+        <div class="form-row">
+          <label for="phone">Téléphone</label>
+          <input type="tel" id="phone" name="phone" required placeholder="+212 6XX-XXXXXX">
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="vous@exemple.com">
+        </div>
+        <div class="form-row">
+          <label for="message">Votre besoin</label>
+          <textarea id="message" name="message" rows="4" required placeholder="Décrivez brièvement votre activité et votre besoin"></textarea>
+        </div>
+        <button type="submit" class="btn btn-solid btn-lg form-submit">Envoyer la demande</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <a href="#top" class="brand brand-footer">
+      <span class="brand-mark">N</span>
+      <span class="brand-name">Nada<em>Comptable</em></span>
+    </a>
+    <nav class="footer-nav">
+      <a href="#services">Services</a>
+      <a href="#methode">Méthode</a>
+      <a href="#apropos">À propos</a>
+      <a href="#avis">Avis</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p class="footer-copy">© <span id="year"></span> Nada Comptable — Tous droits réservés.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
